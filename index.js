@@ -1,3 +1,3 @@
 exports.unquote = function(str) {
-	return str.replace(/(^[\'\"])|([\'\"]$)/,'');
+	return str.replace(/(^[\'\"])|([\'\"]$)/g,'');
 };
